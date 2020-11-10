@@ -1,0 +1,98 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Inter', sans-serif;
+	width: 90%;
+	margin: auto;
+}
+
+main {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+}
+
+section {
+	flex: 1 1 40rem;
+	position: relative;
+	margin-left: 100px;
+}
+
+aside {
+	flex: 1 2 40rem;
+	position: relative;
+}
+
+.person {
+	background-size: cover;
+	position: absolute;
+	transform: translateY(-50%);
+	z-index: -2;
+	left: -75px;
+	border-radius: 4px;
+}
+
+p {
+	font-size: 32px;
+	font-weight: 300;
+}
+
+small {
+	display: block;
+	margin-top: 36px;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+span {
+	font-weight: normal;
+	color: #bac1cc;
+	display: inline-block;
+	margin-left: 15px;
+}
+
+.quote {
+	position: absolute;
+	top: -68px;
+	left: 100px;
+}
+
+button {
+	display: block;
+	position: absolute;
+	top: 244.8px;
+	left: -15px;
+	border: none;
+	background: #fff;
+	padding: 1rem;
+	border-radius: 24px;
+	box-shadow: 8px 12px 24px #ccc;
+}
+
+.prev {
+	margin-right: 25px;
+}
+
+.next {
+	margin-left: 25px;
+}
+
+.pattern {
+	position: absolute;
+	z-index: -5;
+}
+
+.bg {
+	bottom: -326px;
+	right: 86px;
+}
+
+.curve {
+	left: 0;
+	bottom: 0;
+}
